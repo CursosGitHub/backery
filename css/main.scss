@@ -1,0 +1,121 @@
+main{
+	width:95%;
+	margin:auto;
+}
+
+.titles{
+	padding: 1em  0;
+	text-align:center;
+	h2{
+		margin-bottom: .5em;
+		font-size: 1.8em;
+	}
+
+	p{
+		font-size: .8em;
+		margin-bottom:1.5em;
+	}
+}
+
+main article{
+	text-align:center;
+	margin-bottom:2.5em;
+	h3{
+		font-size:1.5em;
+		margin:.4em 0;
+	}
+
+	p{
+		font-size:.8em;
+		margin-bottom:2em;
+	}
+
+	img{
+		height: 250px;
+	}
+
+}
+
+.articles_news article{
+	h3{
+		font-family: 'Open Sans', sans-serif;
+		color:$letO;
+		font-size:1em;
+	}
+
+	a{
+		text-decoration: none;
+		color:$letO;
+		font-size:.9em;
+		@include borde($letO);
+		padding:.2em .5em;
+
+		&:hover{
+			border:2px solid $letO;
+		}
+	}
+
+}
+
+
+/********************Media queries*******************/
+@media(min-width: 400px){
+	main article{
+		img{
+			height:300px;
+		}
+	}
+}
+
+@media(min-width: 680px){
+	main article{
+		img{
+			height:380px;
+		}
+	}
+}
+
+@media(min-width: 860px){
+	main article{
+		margin-bottom:0;
+		img{
+			height:470px;
+		}
+	}
+}
+
+@media(min-width:1024px){
+	main{
+		width:90%;
+	}
+
+	.titles{
+		padding-top: 3em;
+		width:80%;
+		margin:auto;
+	}
+
+	.articles_food,.articles_news{
+		display:flex;
+		article{
+			padding:0 .5em;
+			width:25%;
+		}
+	}
+
+	main article{
+		img{
+			height:150px;
+		}
+	}
+
+	.news{
+		//@include borde(green);
+		padding-bottom: 2em;
+	}
+
+
+}
+
+
+

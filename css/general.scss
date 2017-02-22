@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
+//font-family: 'Dancing Script', cursive;
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
+/**************Estilos generales**************/
+@import 'colores.scss';
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background:$fondo;
+	color:$letO;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Dancing Script', cursive;
+	color:$titulos;
+}
+
+article img{
+	width:100%;
+}
+
+
+/**************Header**************/
+@import 'header.scss';
+
+/**************Main**************/
+@import 'main.scss';
+
+/**************Footer**************/
+@import 'footer.scss';
+
+
+/***************Media queries**************/
+@media(min-width: 1024px){
+	.contenedor{
+		width:70%;
+		margin:auto;
+	}
+}

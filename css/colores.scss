@@ -1,0 +1,13 @@
+/**************Colores pagina*************/
+$fondo:#F3F1EA;
+$foot:#4C3C3C;
+$titulos:#FB6E84;
+$letB:#FFFFFE;
+$letO:#343434;
+$menu:#603D4B;
+
+/**************Mixins pagina*************/
+@mixin borde($color){
+	border:1px solid $color;
+}
+
