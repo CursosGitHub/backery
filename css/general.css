@@ -21,6 +21,9 @@ h1, h2, h3, h4 {
 article img {
   width: 100%; }
 
+.contenedor {
+  background: #FFFFFE; }
+
 /**************Header**************/
 header {
   background: #603D4B; }
