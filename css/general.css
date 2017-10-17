@@ -341,7 +341,8 @@ footer p, li, span {
   font-family: 'Open Sans', sans-serif;
   color: #343434;
   text-transform: uppercase;
-  font-size: 13px; }
+  font-size: 13px;
+  color: #F3F1EA; }
 
 .footer_food .foods h5 {
   color: rgba(255, 255, 254, 0.5); }
